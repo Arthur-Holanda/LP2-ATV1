@@ -3,7 +3,7 @@ import java.util.Random;
 class Produto {
     private String nomeLoja;
     private double preco;
-    private String descricao;
+    protected String descricao;
 
     public String getNomeLoja() {
         return nomeLoja;
@@ -22,7 +22,7 @@ class Produto {
     }
 
     public String getDescricao() {
-        return descricao;
+        return ("Produto de informatica ");
     }
 
     public void setDescricao(String descricao) {

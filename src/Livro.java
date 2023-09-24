@@ -15,6 +15,6 @@ class Livro extends Produto {
 
     @Override
     public String getDescricao() {
-        return super.getDescricao() + " - Autor: " + getAutor();
+        return super.descricao + " - Autor: " + getAutor();
     }
 }
